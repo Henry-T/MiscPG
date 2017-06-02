@@ -1,0 +1,18 @@
+digraph G {
+  edge [fontname="YaHei Consolas Hybird"];
+  node [fontname="YaHei Consolas Hybird"];
+  
+  Pay_Request -> Get_Receipt
+  Get_Receipt -> Receipt_verified
+  good -> life
+  nice -> shot
+  任务 -> 01_path
+  三国的后裔 -> iOS
+  三国的后裔 -> Android
+}
+
+digraph A {
+  size = "4,4";
+  main [shape=box];
+  main -> x
+}
